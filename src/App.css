@@ -1,0 +1,98 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a2a50;
+}
+
+
+  .Register_form {
+    width: 100%;
+    max-width: 420px;
+    background: rgb(17, 30, 58);
+    border-radius: 1.5rem;
+    padding: 2.75rem 2.25rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-overline {
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8ed5ff;
+    margin-bottom: 0.4rem;
+    font-family: 'Manrope', sans-serif;
+  }
+ 
+  .form-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #dae2fd;
+    letter-spacing: -0.04em;
+    line-height: 1.2;
+    margin-bottom: 2.25rem;
+  }
+ 
+  .Register_form label {
+    display: block;
+    font-size: 0.67rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(218,226,253,0.4);
+    font-weight: 500;
+    margin-bottom: 0.45rem;
+  }
+ 
+  .Register_form input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(62,72,79,0.3);
+    border-radius: 0;
+    padding: 0.65rem 0;
+    color: #dae2fd;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.92rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.25s, box-shadow 0.25s;
+    caret-color: #8ed5ff;
+  }
+ 
+  .Register_form input::placeholder {
+    color: rgba(218,226,253,0.17);
+    font-size: 0.84rem;
+  }
+ 
+  .Register_form input:focus {
+    border-bottom-color: #8ed5ff;
+    box-shadow: 0 2px 0 -1px rgba(142,213,255,0.2);
+  }
+ 
+  .submit {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.9rem;
+    background: linear-gradient(135deg, #8ed5ff 0%, #38bdf8 100%);
+    border: none;
+    border-radius: 0.375rem;
+    color: #0b1326;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s;
+  }
+ 
+  .submit:hover { opacity: 0.85; }
+  .submit:active { transform: scale(0.985); }
+ 
+  .submit.success {
+    background: linear-gradient(135deg, #5dcaa5 0%, #1d9e75 100%);
+  }

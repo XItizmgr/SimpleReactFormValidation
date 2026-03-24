@@ -4,15 +4,10 @@ A lightweight, high-performance registration interface built with React 18. This
 
 ## Core Features
 
-### 1. Advanced Form Validation
+### 1. Form Validation
 The system utilizes declarative validation rules powered by the React Hook Form library for robust data integrity.
 * Input Constraints: Enforces mandatory fields, specific character counts (4–12 for names, minimum 6 for passwords), and strict email formatting.
 * Live Feedback: Implements conditional rendering to display real-time error messages from the formState object immediately upon validation failure.
-
-### 2. Optimized Performance
-The project is architected to handle data management efficiently by minimizing unnecessary re-renders.
-* Ref-based Inputs: Uses the register spread operator to link inputs directly to the library logic, reducing overhead compared to controlled components.
-* Standardized Submission: Employs a centralized handleSubmit function to process validated data and manage event propagation.
 
 ## Tech Stack
 * Frontend: React 18 (Functional Components, Hooks)
